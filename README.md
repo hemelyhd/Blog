@@ -20,14 +20,16 @@ Heute haben wir das Konzept unseres Spiels verändert, es ist nun ein Multiplaye
 
 ### 18.09. Dienstag
 Heute haben wir an unserem neuen Actor gearbeitet: Bullet. Bullet ist ein Schwein, welches durch den Weltraum schwebt. Bei einer Berührung von Bullet und einer Sausage, wird die Sausage schneller (das haben wir einfach mit if... move(schneller als Ausgangsgeschwindigkeit) programmiert). Dieser Boost kann im Spiel ein Vorteil sein, weil die Sausage des Spielers schneller zum Teller kommt, aber auch ein Nachteil, weil sie somit auch unkontrolliert gegen eine Rakete geboostet werden kann.
-<img width="180" alt="schwein" src="https://user-images.githubusercontent.com/43174249/48730216-f4412080-ec39-11e8-9875-78192ddd2638.png">
 
 
 ### 22.10. Montag
 Wir haben an der Programmierung der Raketen etwas verändert, es sind nicht mehr einzelne Actor, sondern gehören einer Actorklasse an, haben die gleichen Befehle, starten aber an unterschiedlichen Koordinaten. Des Weiteren haben wir noch mehr Raketen platziert, um die Schwierigkeit zu erhöhen.
 
 ### 23.10. Dienstag
-Heute haben wir probiert, ein wichtiges Problem zu lösen. Wir haben erst einmal unsere Programmierung umgeschrieben. Nach einem Gespräch mit Herrn Buhl wurden aus zwei Actorn (Sausage 1 und Sausage 2) nur noch ein Actor: Sausage. Dementsprechend haben wir ihnen trotzdem unterschiedliche Befehle (unterschiedliche Tasten zum Bedienen) gegeben. FOTO
+Heute haben wir probiert, ein wichtiges Problem zu lösen. Wir haben erst einmal unsere Programmierung umgeschrieben. Nach einem Gespräch mit Herrn Buhl wurden aus zwei Actorn (Sausage 1 und Sausage 2) nur noch ein Actor: Sausage. Dementsprechend haben wir ihnen trotzdem unterschiedliche Befehle (unterschiedliche Tasten zum Bedienen) gegeben.
+
+<img width="546" alt="2 sausage untersch befehle" src="https://user-images.githubusercontent.com/43174249/48730257-15a20c80-ec3a-11e8-9ee4-df704693ab27.png">
+
 
 ### 29.10. Montag
 Heute haben wir an der Expolosion gearbeitet, die entstehen soll, wenn die Rakete auf eine Sausage trifft. Zuerst wollten wir die Explosion mit dem Code set.Transparency() durchsichtig hinter der Sausage mitlaufen lassen, und sie erscheinen lassen, sobald sich Sausage und Rakete berühren. Dies hat allerdings nicht wirklich geklappt. Sie wird nun per Signal an myWorld von ihr aus in die Welt gesetzt. Das ist aber leider noch nicht ganz fehlerfrei, denn es entstehen viele Explosionen, solange Rakete und Sausage sich noch berühren, was zur Stocken des Spiels führt.
