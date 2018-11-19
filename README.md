@@ -27,6 +27,8 @@ Heute haben wir an unserem neuen Actor gearbeitet: Bullet. Bullet ist ein Schwei
 ### 22.10. Montag
 Wir haben an der Programmierung der Raketen etwas verändert, es sind nicht mehr einzelne Actor, sondern gehören einer Actorklasse an, haben die gleichen Befehle, starten aber an unterschiedlichen Koordinaten. Des Weiteren haben wir noch mehr Raketen platziert, um die Schwierigkeit zu erhöhen.
 
+<img width="606" alt="mehrere raketen bestimmter platz" src="https://user-images.githubusercontent.com/43174249/48730428-9c56e980-ec3a-11e8-8f59-3d30356b942e.png">
+
 ### 23.10. Dienstag
 Heute haben wir probiert, ein wichtiges Problem zu lösen. Wir haben erst einmal unsere Programmierung umgeschrieben. Nach einem Gespräch mit Herrn Buhl wurden aus zwei Actorn (Sausage 1 und Sausage 2) nur noch ein Actor: Sausage. Dementsprechend haben wir ihnen trotzdem unterschiedliche Befehle (unterschiedliche Tasten zum Bedienen) gegeben.
 
