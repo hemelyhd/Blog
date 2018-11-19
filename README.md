@@ -21,6 +21,8 @@ Heute haben wir das Konzept unseres Spiels verändert, es ist nun ein Multiplaye
 ### 18.09. Dienstag
 Heute haben wir an unserem neuen Actor gearbeitet: Bullet. Bullet ist ein Schwein, welches durch den Weltraum schwebt. Bei einer Berührung von Bullet und einer Sausage, wird die Sausage schneller (das haben wir einfach mit if... move(schneller als Ausgangsgeschwindigkeit) programmiert). Dieser Boost kann im Spiel ein Vorteil sein, weil die Sausage des Spielers schneller zum Teller kommt, aber auch ein Nachteil, weil sie somit auch unkontrolliert gegen eine Rakete geboostet werden kann.
 
+<img width="180" alt="schwein" src="https://user-images.githubusercontent.com/43174249/48730424-99f48f80-ec3a-11e8-8d4e-924b5d359f70.png">
+
 
 ### 22.10. Montag
 Wir haben an der Programmierung der Raketen etwas verändert, es sind nicht mehr einzelne Actor, sondern gehören einer Actorklasse an, haben die gleichen Befehle, starten aber an unterschiedlichen Koordinaten. Des Weiteren haben wir noch mehr Raketen platziert, um die Schwierigkeit zu erhöhen.
