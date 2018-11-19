@@ -8,6 +8,9 @@ erster Schultag 20.08.
 03.09. (ausgefallen?)
 
 04.09.
+Heute haben wir das Konzept unseres Spiels verändert, es ist nun ein Multiplayer-Spiel. Dafür haben wir noch eine weitere Bratpfanne 
+und eine weitere Sausage hinzugefügt. Dementsprechend haben wir das Format der MyWorld geändert. Nun geht es darum, wer als erstes 
+den Teller berührt. 
 
 10.09. 
 
@@ -16,7 +19,7 @@ erster Schultag 20.08.
 17.09.
 
 18.09. Di
-
+Heute hab
 22.10.
 
 23.10. Di
@@ -35,7 +38,7 @@ erscheinen soll und wir groß es sein soll. mit IF touches ?????? wir das Bild v
 her haben wir uns an das gleiche Konzept wie bei der Explosion gehalten.
 
 06.11.
-Wir haben heute probiert, das Problem aus der letzten Stunde zu lösen
+Wir haben heute probiert, das Problem aus der letzten Stunde zu lösen:
 1) Teller berührt sausage, feuerwerk zu früh 
 2) Timer explosion
 Zuerst haben wir den Code delay verwendet, dieser hat jedoch das komplette Spiel verzögert. Im Internet und teilweise auch im Buch 
@@ -51,10 +54,5 @@ danach normal weiterläft ohne zu haken.
 13.11. Di(ich bei Probe)
 Heute war Helena krank, deshalb habe ich (Emely) probiert die Version von Greenfoot zu ändern
 
-
-
-
-
-6. November(dienstag)
-Wir haben probiert, das Problem aus der letzten Stunde zu lösen: explosion timer weg zurm teller verzögerung delay
-Möglichkeit: andere Greenfoot version,damit codes ausm internetz ud ausm buch gehennn
+Teller in richiger größe 
+Bullet
