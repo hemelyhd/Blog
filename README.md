@@ -31,9 +31,15 @@ Heute haben wir probiert, ein wichtiges Problem zu lösen. Wir haben erst einmal
 Heute haben wir an der Expolosion gearbeitet, die entstehen soll, wenn die Rakete auf eine Sausage trifft. Zuerst wollten wir die Explosion mit dem Code set.Transparency() durchsichtig hinter der Sausage mitlaufen lassen, und sie erscheinen lassen, sobald sich Sausage und Rakete berühren. Dies hat allerdings nicht wirklich geklappt. Sie wird nun per Signal an myWorld von ihr aus in die Welt gesetzt. Das ist aber leider noch nicht ganz fehlerfrei, denn es entstehen viele Explosionen, solange Rakete und Sausage sich noch berühren, was zur Stocken des Spiels führt.
 
 ### 30.10. Dienstag
-Heute haben wir uns verschiedene Feuerwerksbilder aus dem Internet angeschaut und ausgewählt, welches bei Gewinn einer Sausage erscheinen soll und wir groß es sein soll. mit IF touches usw haben wir das Bild von myWorld in die Welt gesetzt, von der Programmierung her haben wir uns an das gleiche Konzept wie bei der Explosion gehalten.
+Heute haben wir die Lösung für das Explosionsproblem mithilfe dieses neuen Codes gefunden:
+
+<img width="531" alt="explosion neu nur 1mal" src="https://user-images.githubusercontent.com/43174249/48729921-3158e300-ec39-11e8-83ed-84c9405c3d84.png">
+
+Er stellt sicher, dass nur ein Explosionsbild entsteht und der Befehl "neues Bild produzieren" nicht durchgehend aufgerufen wird.
+Wir haben uns außerdem verschiedene Feuerwerksbilder aus dem Internet angeschaut und ausgewählt, welches bei Gewinn einer Sausage erscheinen soll und wir groß es sein soll. mit IF touches usw haben wir das Bild von myWorld in die Welt gesetzt, von der Programmierung her haben wir uns an das gleiche Konzept wie bei der Explosion gehalten.
 
 <img width="531" alt="wie bei expl neu confetti 1mal wenn s p --noch nicht top" src="https://user-images.githubusercontent.com/43174249/48729803-d626f080-ec38-11e8-90b9-70ed06b7d835.png">
+
 
 ### 06.11. Montag
 Wir haben heute probiert, die Probleme aus der letzten Stunde zu lösen:
