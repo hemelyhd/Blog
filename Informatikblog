@@ -1,0 +1,78 @@
+
+21.08. Di
+Nach einer Einführung von Herrn Buhl in die Thematik und der Vorstellung der Projektsstruktur, haben wir uns ein eigenes Githubkonto erstellt.
+Heute haben wir uns über die Programme Github, Greenfoot und the Beauty and Joy of Computing informiert und probiert sie so gut wie möglich zu 
+verstehen. Deshalb haben wir heute größtenteils im Internet recherchiert und uns die gestellten Links, sowie weitere Tutorials angeschaut.
+27.08. 
+Durch viel Recherche zuhause konnten wir uns ein Bild von den Programmen machen (vor allem von Greenfoot) und haben uns dementsprechend auch 
+entschieden, mit diesem zu arbeiten. Das heißt zwar, dass wir wahrscheinlich mehr Arbeit zuhause dareinstecken müssen, weil uns schon aufgefallen
+ist, dasss es wahrscheinlich besonders jetzt am Anfang schon schwieriger ist mit der Programmiersprache (mit der wir noch nie zuvor in 
+Verbindung gekommen sind), als mit den Code-Bausteinen aus The Beauty and Joy of Computing zu arbeiten. Wir nehmen die Herausforderung aber an!
+
+28.08. Di
+Nach weiterer Recherche und dem Erstellen einer Weltraumwelt, haben wir einen ersten Actor in diese gesetzt: Eine Sausage! An dieser haben wir 
+unsere ersten Codes angewendet und ein bisschen herumprobiert. Dabei haben uns auch die Ersten Schritte aus dem Informatikbuch, welches wir 
+uns beide zum lernen ausgeliehen haben geholfen. Desweiteren haben wir eine Raktete in die Welt gesetzt und ihr erstmal eine konstante 
+Bewegung gegeben, sodass sie immer von Weltrand zu Weltrand fliegt. Dafür haben wir die Codes if ... move() und turn() benutzt. Ein Problem, 
+das besteht ist, das wir nicht wissen wie wir den Actor in der Welt behalten, bis jetzt mussten wir ihn immer neu mit in die Welt ziehen. 
+
+03.09. (ausgefallen?)
+
+04.09.
+Wir haben eine Lösung für unser Problem gefunden! Es war nicht möglich einen Actor mit Rechtsklick und "Save the World" zu speichern, beziehungsweise
+war es das, man konnte es dann aber komischerweise nicht mehr ändern. Deshalb haben wir den Actor nun in der Programmierung der Welt mithilfe 
+von prepare() verankert, sobald er sofort bei Entstehung der Welt an bestimmten Koordinaten erscheint. 
+Langsam wird es immer einfacher das Programm und vor allem die Fehleremeldungen, die das Programm anzeigt, zu verstehen. Auch das Programm
+an sich wird frei nach unserem Motto "einfach drauflos probieren" immer transparenter und trotz anfänglicher starker Unverständnisse lernen wir
+aus Fehlern und kommen ganz gut voran. 
+10.09. 
+
+11.09. Di
+
+Heute haben wir das Konzept unseres Spiels verändert, es ist nun ein Multiplayer-Spiel. Dafür haben wir noch eine weitere Bratpfanne 
+und eine weitere Sausage hinzugefügt. Dementsprechend haben wir das Format der MyWorld geändert. Nun geht es darum, wer als erstes 
+den Teller berührt. 
+
+17.09.
+
+18.09. Di
+Heute haben wir an unserem neuen Actor gearbeitet: Bullet. Bullet ist ein Schwein, welches durch den Weltraum schwebt. Bei einer 
+Berührung von Bullet und einer Sausage, wird die Sausage schneller (das haben wir einfach mit if... move(schneller als Ausgangsgeschwindigkeit)
+programmiert). Dieser Boost kann im Spiel ein Vorteil sein, weil die Sausage des Spielers schneller zum Teller kommt, aber auch ein 
+Nachteil, weil sie somit auch unkontrolliert gegen eine Rakete geboostet werden kann.
+22.10.
+
+23.10. Di
+Heute haben wir probiert, ein wichtiges Problem zu lösen.
+Wir haben erst einmal unsere Programmierung umgeschrieben. Nach einem Gespräch mit Herrn Buhl wurden aus 2 Actorn Sausage 1 und Sausage 2
+nur noch ein Actor: Sausage. Dementsprechend haben wir ihnen trotzdem unterschiedliche Befehle (unterschiedliche Tasten zum Bedienen) gegeben.
+
+29.10.
+Heute haben wir an der Expolosion weitergearbeitet, die entstehen soll, wenn die Rakete auf eine Sausage trifft. Zuerst wollten wir 
+die Explosion mit dem Code set.Transparency() durchsichtig hinter der Sausage mitlaufen lassen, und sie erscheinen lassen, sobald sich
+Sausage und Rakete berühren. Dies hat allerdings nicht wirklich geklappt. ??????
+
+30.10. Di
+Heute haben wir uns verschiedene Feuerwerksbilder aus dem Internet angeschaut und ausgewählt, welches bei Gewinn einer Sausage
+erscheinen soll und wir groß es sein soll. mit IF touches ?????? wir das Bild von myWorld in die Welt gesetzt, von der Programmierung 
+her haben wir uns an das gleiche Konzept wie bei der Explosion gehalten.
+
+06.11.
+Wir haben heute probiert, das Problem aus der letzten Stunde zu lösen:
+1) Teller berührt sausage, feuerwerk zu früh 
+2) Timer explosion
+Zuerst haben wir den Code delay verwendet, dieser hat jedoch das komplette Spiel verzögert. Im Internet und teilweise auch im Buch 
+sind wir auf geeignete Codes gestoßen, diese konnten wir jedoch nicht verwenden, weil wir eine andere Version von Greenfoot haben und sie
+sich so nicht überschreiben lassen. Ein Versionswechsel wäre in Zukunft auch eine Lösung für viele Probleme. 
+
+12.11.
+Wie in den letzten Stunden, haben wir mit unserem Programm gekämpft, welches sobald eine Explosion entsteht, das Spiel haken lässt
+und mehrere Explosionen entstehen, wenn sich die Sausage weiterbewegt und erneuert auf eine Rakete trifft. In diesen Fällen wurden 
+die Actor immer zu Greenfoot Füßen. Heute haben wir das Problem mit dem Code (??????) gelöst, der dafür sorgt, dass nur ein Bild entsteht und das Spiel
+danach normal weiterläft ohne zu haken.
+
+13.11. Di(ich bei Probe)
+Heute war Helena krank, deshalb habe ich (Emely) probiert die Version von Greenfoot zu ändern
+
+Teller in richiger größe 
+Bullet
