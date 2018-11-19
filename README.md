@@ -33,6 +33,8 @@ Heute haben wir an der Expolosion gearbeitet, die entstehen soll, wenn die Raket
 ### 30.10. Dienstag
 Heute haben wir uns verschiedene Feuerwerksbilder aus dem Internet angeschaut und ausgewählt, welches bei Gewinn einer Sausage erscheinen soll und wir groß es sein soll. mit IF touches usw haben wir das Bild von myWorld in die Welt gesetzt, von der Programmierung her haben wir uns an das gleiche Konzept wie bei der Explosion gehalten.
 
+<img width="531" alt="wie bei expl neu confetti 1mal wenn s p --noch nicht top" src="https://user-images.githubusercontent.com/43174249/48729803-d626f080-ec38-11e8-90b9-70ed06b7d835.png">
+
 ### 06.11. Montag
 Wir haben heute probiert, die Probleme aus der letzten Stunde zu lösen:
 
