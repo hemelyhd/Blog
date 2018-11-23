@@ -56,10 +56,12 @@ Wir haben heute probiert, die Probleme aus der letzten Stunde zu lösen:
 2. Wenn die Sausage eine Rakete berührt, wird eine Explosion erzeugt, diese soll aber nach circa 5 Sekunden wieder verschwinden. Zuerst haben wir den Code delay verwendet, dieser hat jedoch das komplette Spiel verzögert. Im Internet und teilweise auch im Buch sind wir auf geeignete Codes gestoßen, diese konnten wir jedoch nicht verwenden, weil wir eine andere Version von Greenfoot haben und sie sich so nicht überschreiben lassen. Ein Versionswechsel wäre also in Zukunft auch eine Lösung für viele Probleme.
 
 ### 12.11. Montag
-Wie in den letzten Stunden, haben wir mit unserem Programm gekämpft, welches sobald eine Explosion entsteht, das Spiel haken lässt und mehrere Explosionen entstehen, wenn sich die Sausage weiterbewegt und erneuert auf eine Rakete trifft. In diesen Fällen wurden die Actor immer zu Greenfoot Füßen und das Programm stürzt ab. Heute haben wir das Problem mit folgendem Code gelöst, der dafür sorgt, dass nur ein Explosionsbild entsteht und das Spiel danach normal weiterläuft ohne zu haken. FOTO 
+Wie in den letzten Stunden, haben wir mit unserem Programm gekämpft, welches sobald eine Explosion entsteht, das Spiel haken lässt und mehrere Explosionen entstehen, wenn sich die Sausage weiterbewegt und erneuert auf eine Rakete trifft. In diesen Fällen wurden die Actor immer zu Greenfoot Füßen und das Programm stürzt ab. Heute haben wir das Problem mit && ! had Explosion=true gelöst, der dafür sorgt, dass nur ein Explosionsbild entsteht und das Spiel danach normal weiterläuft ohne zu haken. 
 
 ### 13.11. Dienstag 
 Heute wurden Feinheiten ausgebessert und probiert die Explosion mithilfe eines Timers wieder zu entfernen. 
 
 ### 20.11. Dienstag
 Heute haben wir es geschafft, den Timer für die Explosion fertigzustellen. Außerdem haben wir den Schluss des Spiels vervollständigt: Sobald eine Sausage eine Rakete berührt, wird kurz die Explosion ausgelöst, und die Sausage landet bei einem neuen Actor, dem dann erscheinenden Yoda der "Vorsichtig sein du musst" sagt und die Sausage für einen neuen Versuch wieder freisetzt. Sobald eine Sausage den Teller berührt, erscheint ein Feuerwerk und Yoda erscheint nocheinmal und beendet das Spiel. 
+![yoda inf](https://user-images.githubusercontent.com/43174249/48953824-6b7ef900-ef47-11e8-9ba4-8a4ebac6b2e7.png)
+
