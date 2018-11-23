@@ -62,6 +62,6 @@ Wie in den letzten Stunden, haben wir mit unserem Programm gekämpft, welches so
 Heute wurden Feinheiten ausgebessert und probiert die Explosion mithilfe eines Timers wieder zu entfernen. 
 
 ### 20.11. Dienstag
-Heute haben wir es geschafft, den Timer für die Explosion fertigzustellen. Außerdem haben wir den Schluss des Spiels vervollständigt: Sobald eine Sausage eine Rakete berührt, wird kurz die Explosion ausgelöst, und die Sausage landet bei einem neuen Actor, dem dann erscheinenden Yoda der "Vorsichtig sein du musst" sagt und die Sausage für einen neuen Versuch wieder freisetzt. Sobald eine Sausage den Teller berührt, erscheint ein Feuerwerk und Yoda erscheint nocheinmal und beendet das Spiel. 
+Heute haben wir es geschafft, den Timer für die Explosion fertigzustellen. Außerdem haben wir den Schluss des Spiels vervollständigt: Sobald eine Sausage eine Rakete berührt, wird kurz die Explosion ausgelöst, und die Sausage landet bei einem neuen Actor, dem dann erscheinenden Yoda der "Vorsichtig sein du musst" sagt und die Sausage für einen neuen Versuch wieder freisetzt. Sobald eine Sausage den Teller berührt, erscheint ein Feuerwerk und Yoda erscheint nocheinmal und beendet das Spiel. Damit haben wir unser Spiel heute fertiggestellt!
 ![yoda inf](https://user-images.githubusercontent.com/43174249/48953824-6b7ef900-ef47-11e8-9ba4-8a4ebac6b2e7.png)
 
