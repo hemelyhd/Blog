@@ -58,4 +58,8 @@ Wir haben heute probiert, die Probleme aus der letzten Stunde zu lösen:
 ### 12.11. Montag
 Wie in den letzten Stunden, haben wir mit unserem Programm gekämpft, welches sobald eine Explosion entsteht, das Spiel haken lässt und mehrere Explosionen entstehen, wenn sich die Sausage weiterbewegt und erneuert auf eine Rakete trifft. In diesen Fällen wurden die Actor immer zu Greenfoot Füßen und das Programm stürzt ab. Heute haben wir das Problem mit folgendem Code gelöst, der dafür sorgt, dass nur ein Explosionsbild entsteht und das Spiel danach normal weiterläuft ohne zu haken. FOTO 
 
-### 13.11. Dienstag Emely allein (??)
+### 13.11. Dienstag 
+Heute wurden Feinheiten ausgebessert und probiert die Explosion mithilfe eines Timers wieder zu entfernen. 
+
+### 20.11. Dienstag
+Heute haben wir es geschafft, den Timer für die Explosion fertigzustellen. Außerdem haben wir den Schluss des Spiels vervollständigt: Sobald eine Sausage eine Rakete berührt, wird kurz die Explosion ausgelöst, und die Sausage landet bei einem neuen Actor, dem dann erscheinenden Yoda der "Vorsichtig sein du musst" sagt und die Sausage für einen neuen Versuch wieder freisetzt. Sobald eine Sausage den Teller berührt, erscheint ein Feuerwerk und Yoda erscheint nocheinmal und beendet das Spiel. 
